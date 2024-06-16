@@ -30,7 +30,7 @@ body{
     flex-direction: column;
     gap: 1rem;
     margin: auto;
-    margin-top: 10%;
+    margin-top: 25%;
     padding: 16px;
     border-radius: 15px;
     border: 1px solid var(--primary-text-color);
