@@ -36,9 +36,7 @@ body{
     border: 1px solid var(--primary-text-color);
     box-shadow: 9px 7px var(--primary-text-color);
 }
-.main-card:hover {
-    transform: scale(1.01);  
-}
+
 .main-card__img img{
    max-width: 100%;
    border-radius: 10px;
@@ -66,7 +64,6 @@ body{
 }
 .main-card__text--title:hover {
     color: var(--hover-acent-color);
-    cursor: pointer;
     transform: scale(1.01);
 }
 .main-card__text--description{
@@ -86,4 +83,8 @@ body{
 .main-card__author span{
     font-size: 12px;
     font-weight: 800;
+}
+.main-card__author span:hover {
+    color: var(--hover-acent-color);
+    transform: scale(1.01);
 }
