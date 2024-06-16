@@ -36,10 +36,7 @@ body{
     border: 1px solid var(--primary-text-color);
     box-shadow: 9px 7px var(--primary-text-color);
 }
-@keyframes hoverAnimation {
-    from { background-color: rgb(234, 204, 174); }
-    to { background-color: rgb(111, 83, 83); }
-}
+
 .main-card:hover {
     transform: scale(1.01);
    
